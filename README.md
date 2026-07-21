@@ -1,35 +1,43 @@
 # SP Post Reactions
 
-🌍 **Language / Sprache:** **English** | [Deutsch](#deutsch)
+A modern AJAX reaction extension for **phpBB 3.3**.
+
+Allow your users to react to posts with configurable reaction symbols, real-time updates and user notifications – without reloading the page.
 
 ---
 
-# English
+## 🌍 Language
 
-## SP Post Reactions
+- 🇬🇧 English
+- 🇩🇪 Deutsch (below)
 
-SP Post Reactions is a modern AJAX-based reaction extension for phpBB 3.3.
+---
 
-It allows users to react to posts with configurable symbols while providing a fast and responsive user experience.
+# 🇬🇧 English
 
 ## Features
 
-- ⚡ AJAX reactions without page reload
-- 😊 Up to eight configurable reaction symbols
+- ⚡ Fast AJAX reactions (no page reload)
+- 👍 Up to 8 configurable reaction symbols
 - 🔔 User notifications
-- 📱 Responsive design for desktop and mobile
-- ⚙️ ACP configuration
 - 👤 User settings in the UCP
-- 🚀 Fast and lightweight
+- ⚙️ Extensive ACP configuration
+- 📱 Responsive design for desktop and mobile
+- 🎨 Easy customization
+- 🚀 Lightweight and optimized
+
+---
 
 ## Requirements
 
-- phpBB 3.3.x
-- PHP 8.1 or newer
+- phpBB **3.3.x**
+- PHP **8.1** or newer
+
+---
 
 ## Installation
 
-1. Copy the extension to:
+1. Copy the extension to
 
 ```
 ext/soerpaule/sppostreaction
@@ -38,14 +46,27 @@ ext/soerpaule/sppostreaction
 2. Purge the phpBB cache.
 3. Enable the extension in the ACP.
 
-## Upgrade
+---
+
+## Upgrade from TF Post Reactions
 
 Existing installations of **TF Post Reactions** can be upgraded without losing existing reaction data.
 
+Simply disable the old extension (do **not** delete data), replace the files and enable **SP Post Reactions**.
+
+---
+
 ## Support
 
-- Website: https://ext.soerpaule.de
-- GitHub Issues: *(Link ergänzen)*
+🌐 Website
+
+https://ext.soerpaule.de
+
+🐙 GitHub
+
+https://github.com/soerpaule
+
+---
 
 ## License
 
@@ -53,28 +74,27 @@ GNU General Public License v2
 
 ---
 
-# Deutsch
-
-## SP Post Reactions
-
-SP Post Reactions ist eine moderne AJAX-Reaktionserweiterung für phpBB 3.3.
-
-Benutzer können Beiträge mit frei konfigurierbaren Symbolen bewerten – schnell, komfortabel und ohne Neuladen der Seite.
+# 🇩🇪 Deutsch
 
 ## Funktionen
 
-- ⚡ AJAX-Reaktionen ohne Seitenneuladen
-- 😊 Bis zu acht frei konfigurierbare Reaktionssymbole
+- ⚡ AJAX-Reaktionen ohne Neuladen der Seite
+- 👍 Bis zu 8 frei konfigurierbare Reaktionssymbole
 - 🔔 Benachrichtigungen
-- 📱 Responsive Darstellung für Desktop und Mobilgeräte
-- ⚙️ Einstellungen im ACP
-- 👤 Benutzereinstellungen im UCP
+- 👤 Einstellungen im Benutzerbereich (UCP)
+- ⚙️ Umfangreiche ACP-Konfiguration
+- 📱 Responsive Darstellung
+- 🎨 Einfache Anpassung
 - 🚀 Schnell und ressourcenschonend
+
+---
 
 ## Voraussetzungen
 
-- phpBB 3.3.x
-- PHP 8.1 oder neuer
+- phpBB **3.3.x**
+- PHP **8.1** oder neuer
+
+---
 
 ## Installation
 
@@ -89,17 +109,40 @@ kopieren.
 2. phpBB-Cache leeren.
 3. Erweiterung im ACP aktivieren.
 
-## Upgrade
+---
 
-Vorhandene Installationen von **TF Post Reactions** können ohne Verlust der vorhandenen Reaktionen aktualisiert werden.
+## Upgrade von TF Post Reactions
+
+Vorhandene Installationen von **TF Post Reactions** können ohne Verlust der vorhandenen Reaktionen übernommen werden.
+
+Dazu einfach die alte Erweiterung deaktivieren (**Daten nicht löschen**), die Dateien ersetzen und anschließend **SP Post Reactions** aktivieren.
+
+---
 
 ## Support
 
-- Website: https://ext.soerpaule.de
-- GitHub Issues: *(Link ergänzen)*
+🌐 Website
+
+https://ext.soerpaule.de
+
+🐙 GitHub
+
+https://github.com/soerpaule
+
+---
 
 ## Lizenz
 
 GNU General Public License v2
 
-GPL-2.0-only
+---
+
+## Author
+
+Developed by **SP soerpaule**
+
+Website:
+https://ext.soerpaule.de
+
+GitHub:
+https://github.com/soerpaule
