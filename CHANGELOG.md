@@ -1,5 +1,34 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2026-07-21
+
+### Added
+
+- First public release
+- AJAX reactions
+- Up to 8 configurable reaction symbols
+- Responsive reaction selector
+- User notifications
+- ACP configuration
+- UCP user preferences
+- Upgrade path from TF Post Reactions
+
+### Changed
+
+- Renamed project from TF Post Reactions to SP Post Reactions
+- Updated namespace to `soerpaule/sppostreaction`
+- Improved documentation
+
+### Fixed
+
+- Various compatibility improvements
+- Migration and upgrade fixes
+
+
+# Changelog
+
 ## 1.0.0 – 2026-07-21
 
 Erste stabile Veröffentlichung unter der Extension-ID `soerpaule/sppostreaction`.
