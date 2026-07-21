@@ -1,0 +1,8 @@
+SP Post Reactions
+Copyright (c) 2026 soerpaule
+
+This extension is licensed under the GNU General Public License version 2 only
+(GPL-2.0-only).
+
+The complete license text is available at:
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html

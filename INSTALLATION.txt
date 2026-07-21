@@ -1,0 +1,17 @@
+SP Post Reactions 1.0.0
+=======================
+
+Neuinstallation
+---------------
+1. Den Ordner soerpaule/sppostreaction nach ext/soerpaule/sppostreaction kopieren.
+2. Im ACP unter Anpassen > Erweiterungen verwalten aktivieren.
+3. Unter Erweiterungen > SP Post Reactions die Einstellungen prüfen.
+4. Bei Darstellungsproblemen den phpBB-Cache leeren.
+
+Upgrade von TF Post Reactions
+-----------------------------
+Für den Wechsel von soerpaule/tfpostreactions bitte die separate Datei
+UPGRADE_FROM_TFPOSTREACTIONS.txt beachten.
+
+Wichtig: Bei der alten Erweiterung niemals "Daten löschen" auswählen, wenn vorhandene
+Reaktionen übernommen werden sollen.
