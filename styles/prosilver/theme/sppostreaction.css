@@ -60,36 +60,36 @@
 .tfpr-mobile-label { display:inline-block; font-weight:600; line-height:22px; }
 
 @media (max-width:700px) {
-    .tfpr-desktop-action { display:none!important; }
-    .tfpr-mobile-action { display:flex; justify-content:flex-start; align-items:center; }
-    .tfpr-mobile-action .tfpr-picker { position:fixed; left:8px; right:8px; top:auto; bottom:14px; z-index:10000; max-width:none; justify-content:center; gap:1px; padding:7px 4px; box-sizing:border-box; }
-    .tfpr-mobile-action .tfpr-picker::before { display:none; }
+	.tfpr-desktop-action { display:none!important; }
+	.tfpr-mobile-action { display:flex; justify-content:flex-start; align-items:center; }
+	.tfpr-mobile-action .tfpr-picker { position:fixed; left:8px; right:8px; top:auto; bottom:14px; z-index:10000; max-width:none; justify-content:center; gap:1px; padding:7px 4px; box-sizing:border-box; }
+	.tfpr-mobile-action .tfpr-picker::before { display:none; }
 }
 
 /* UCP Symbolsatz-Auswahl */
 .tfpr-set-option {
-    display: block;
-    margin: 0 0 12px;
-    padding: 12px;
-    border: 1px solid #c7c3bf;
-    border-radius: 6px;
-    cursor: pointer;
+	display: block;
+	margin: 0 0 12px;
+	padding: 12px;
+	border: 1px solid #c7c3bf;
+	border-radius: 6px;
+	cursor: pointer;
 }
 .tfpr-set-option:hover { background: rgba(255,255,255,.35); }
 .tfpr-set-option input { margin-right: 8px; }
 .tfpr-set-preview {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 7px;
-    margin: 10px 0 0 25px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 7px;
+	margin: 10px 0 0 25px;
 }
 .tfpr-set-preview .tfpr-icon {
-    width: 34px;
-    height: 34px;
-    display: inline-block;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* Dynamisch hochgeladene Symbolsets: Pfade werden pro Benutzer/Set als CSS-Variablen gesetzt. */
@@ -109,44 +109,44 @@ img.tfpr-icon { object-fit:contain; background-image:none!important; }
 .tfpr-icon-hug { background-image:url("./images/reactions/tf-chrom/hug.png"); }
 
 @media (max-width:700px) {
-    .tfpr-mobile-action { margin:7px 0 3px; }
-    .tfpr-mobile-button { height:27px!important; min-height:27px!important; padding:2px 7px!important; gap:5px; border-radius:4px; font-size:12px; line-height:1; }
-    .tfpr-mobile-button .tfpr-toolbar-symbol { width:17px; height:17px; flex-basis:17px; }
-    .tfpr-mobile-label { font-size:12px; line-height:17px; font-weight:600; }
-    .tfpr-mobile-action .tfpr-picker { left:6px; right:6px; bottom:10px; gap:1px; padding:6px 3px; overflow-x:auto; justify-content:flex-start; }
-    .tfpr-mobile-action .tfpr-choice { flex:0 0 40px; width:40px; height:40px; padding:2px; border-radius:7px; }
-    .tfpr-mobile-action .tfpr-choice .tfpr-icon { width:34px; height:34px; }
-    .tfpr-mobile-action .tfpr-choice-label { display:none; }
-    .tfpr-summary { gap:3px; min-height:24px; }
-    .tfpr-summary-wrap { margin-top:6px; padding-top:4px; }
-    .tfpr-count { width:28px; height:28px; }
-    .tfpr-symbol { width:24px; height:24px; }
-    .tfpr-badge { top:-5px; right:-5px; min-width:12px; height:12px; font-size:8px; line-height:11px; }
+	.tfpr-mobile-action { margin:7px 0 3px; }
+	.tfpr-mobile-button { height:27px!important; min-height:27px!important; padding:2px 7px!important; gap:5px; border-radius:4px; font-size:12px; line-height:1; }
+	.tfpr-mobile-button .tfpr-toolbar-symbol { width:17px; height:17px; flex-basis:17px; }
+	.tfpr-mobile-label { font-size:12px; line-height:17px; font-weight:600; }
+	.tfpr-mobile-action .tfpr-picker { left:6px; right:6px; bottom:10px; gap:1px; padding:6px 3px; overflow-x:auto; justify-content:flex-start; }
+	.tfpr-mobile-action .tfpr-choice { flex:0 0 40px; width:40px; height:40px; padding:2px; border-radius:7px; }
+	.tfpr-mobile-action .tfpr-choice .tfpr-icon { width:34px; height:34px; }
+	.tfpr-mobile-action .tfpr-choice-label { display:none; }
+	.tfpr-summary { gap:3px; min-height:24px; }
+	.tfpr-summary-wrap { margin-top:6px; padding-top:4px; }
+	.tfpr-count { width:28px; height:28px; }
+	.tfpr-symbol { width:24px; height:24px; }
+	.tfpr-badge { top:-5px; right:-5px; min-width:12px; height:12px; font-size:8px; line-height:11px; }
 }
 
 /* Mobiler Reaktionsbutton */
 @media (max-width:700px) {
-    .tfpr-mobile-button {
-        width:38px!important;
-        min-width:38px!important;
-        height:26px!important;
-        min-height:26px!important;
-        padding:3px 9px!important;
-        gap:0;
-        border:1px solid rgba(167, 35, 48, .58)!important;
-        border-radius:5px;
-        background:linear-gradient(to bottom, rgba(255, 246, 247, .98), rgba(247, 218, 222, .92))!important;
-        box-shadow:0 1px 2px rgba(72, 18, 24, .22);
-    }
-    .tfpr-mobile-button:active,
-    .tfpr-mobile-button[aria-expanded="true"] {
-        background:linear-gradient(to bottom, rgba(244, 205, 211, .96), rgba(235, 178, 187, .94))!important;
-        box-shadow:inset 0 1px 2px rgba(72, 18, 24, .24);
-    }
-    .tfpr-mobile-button .tfpr-toolbar-symbol {
-        width:17px;
-        height:17px;
-        flex-basis:17px;
-    }
-    .tfpr-mobile-label { display:none!important; }
+	.tfpr-mobile-button {
+		width:38px!important;
+		min-width:38px!important;
+		height:26px!important;
+		min-height:26px!important;
+		padding:3px 9px!important;
+		gap:0;
+		border:1px solid rgba(167, 35, 48, .58)!important;
+		border-radius:5px;
+		background:linear-gradient(to bottom, rgba(255, 246, 247, .98), rgba(247, 218, 222, .92))!important;
+		box-shadow:0 1px 2px rgba(72, 18, 24, .22);
+	}
+	.tfpr-mobile-button:active,
+	.tfpr-mobile-button[aria-expanded="true"] {
+		background:linear-gradient(to bottom, rgba(244, 205, 211, .96), rgba(235, 178, 187, .94))!important;
+		box-shadow:inset 0 1px 2px rgba(72, 18, 24, .24);
+	}
+	.tfpr-mobile-button .tfpr-toolbar-symbol {
+		width:17px;
+		height:17px;
+		flex-basis:17px;
+	}
+	.tfpr-mobile-label { display:none!important; }
 }

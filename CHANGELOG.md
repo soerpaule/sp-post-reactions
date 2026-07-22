@@ -1,46 +1,33 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## 1.0.3 – 2026-07-22
 
-## [1.0.0] - 2026-07-21
+- Completed the final CDB package audit.
+- Verified PHP syntax, JSON, YAML, JavaScript syntax and bundled image files.
+- Confirmed update compatibility with existing SP Post Reactions installations.
+- No database schema, reaction data or configuration changes.
 
-### Added
+## 1.0.2 – 2026-07-22
 
-- First public release
-- AJAX reactions
-- Up to 8 configurable reaction symbols
-- Responsive reaction selector
-- User notifications
-- ACP configuration
-- UCP user preferences
-- Upgrade path from TF Post Reactions
+- Prepared the public package for phpBB Extension Database validation.
+- Improved Composer metadata and support links.
+- Added extension compatibility checks and PHP documentation blocks.
+- Added the complete GPL-2.0 license as `license.txt`.
+- Removed private one-off upgrade instructions from the public package.
+- No database schema or stored reaction data changes.
 
-### Changed
+## 1.0.1 – 2026-07-22
 
-- Renamed project from TF Post Reactions to SP Post Reactions
-- Updated namespace to `soerpaule/sppostreaction`
-- Improved documentation
-
-### Fixed
-
-- Various compatibility improvements
-- Migration and upgrade fixes
-
-
-# Changelog
+- Corrected stored ACP and UCP module paths after the internal TF-to-SP transition.
+- Updated the stored module authorisation condition to the SP extension identifier.
+- Preserved existing reactions, configuration values and user icon-set choices.
 
 ## 1.0.0 – 2026-07-21
 
-Erste stabile Veröffentlichung unter der Extension-ID `soerpaule/sppostreaction`.
-
-- Acht AJAX-Reaktionen auf Beiträge
-- Reaktionen hinzufügen, ändern und entfernen ohne Seitenneuladen
-- Benachrichtigungen für Beitragsautoren
-- Anzeige der reagierenden Benutzer
-- Vier integrierte Symbolsets
-- Verwaltung eigener Symbolsets im ACP
-- Persönliche Symbolset-Auswahl im UCP
-- Responsive Desktop- und Mobilansicht
-- Deutsche und englische Sprachdateien
-- Übernahme vorhandener Daten aus TF Post Reactions möglich
-- Bereinigte Metadaten und Dokumentation
+- First stable release.
+- Added eight AJAX reactions.
+- Added post-author notifications and reactor lists.
+- Added four bundled icon sets and custom icon-set management in the ACP.
+- Added personal icon-set selection in the UCP.
+- Added responsive desktop and mobile layouts.
+- Added British English and German language packs.
